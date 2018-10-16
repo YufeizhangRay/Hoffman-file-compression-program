@@ -1,0 +1,18 @@
+HANDOUT 2 ADHERED; NO BUGS TO REPORT
+
+I've done the first project -- Huffman coding.
+
+Using java and the version is "1.8.0_101".
+
+Compilation and execution instruction:
+
+javac henc9731.java
+
+javac hdec9731.java
+
+java henc9731 1.txt        (create 1.txt.huf and delete 1.txt)
+     
+java hdec9731 1.txt.huf    (create 1.txt and delete 1.txt.huf)
+
+In fact, the code might use a time that a little more than 30 seconds to decoding a 2Mib file(txt,jepg,pdf), perhaps it need 31 or 32 seconds. Because I have a test that 1.6Mib will using 23 seconds. 
+
